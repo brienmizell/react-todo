@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import List from "./List";
 
 class TodoList extends Component {
   constructor(props) {
@@ -20,6 +21,7 @@ class TodoList extends Component {
           />
           <button type="submit">add</button>
         </form>
+        <div />
       </div>
     );
   }
